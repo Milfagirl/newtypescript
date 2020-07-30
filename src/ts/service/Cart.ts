@@ -14,18 +14,18 @@ export default class Cart {
     sum() : number {
         let sumprice : number = 0;
         this._items.forEach(element => {
-            if (element.price){
+            // if (element.price){
                 sumprice = sumprice + element.price;
-            }
+            // }
         });
         return sumprice;
     }
     sumDiscont(value : number) : number {
         let sumprice : number = 0;
         this._items.forEach(element => {
-            if (element.price){
+            // if (element.price){
                 sumprice = sumprice + element.price;
-            }
+            // }
         });
         return sumprice - value*sumprice/100;
     }
