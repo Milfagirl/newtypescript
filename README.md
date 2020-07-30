@@ -1,1 +1,1 @@
-# typescript
+# newtypescript
